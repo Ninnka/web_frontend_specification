@@ -25,6 +25,7 @@ module.exports = {
             "always"
         ],
         "no-unused-vars": [1, {"vars": "all", "args": "after-used"}],
-        "no-console": 0
+        "no-console": 0,
+        "no-redeclare": 0
     }
 };
