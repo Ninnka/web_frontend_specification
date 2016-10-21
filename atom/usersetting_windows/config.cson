@@ -1,0 +1,58 @@
+"*":
+  "activate-power-mode":
+    comboMode:
+      activationThreshold: 5
+    particles:
+      colours:
+        fixed: "#fec129"
+        type: "random"
+      size: {}
+      spawnCount:
+        max: 25
+        min: 10
+      totalCount: {}
+    screenShake:
+      enabled: false
+  "atom-beautify":
+    general:
+      _analyticsUserId: "83de4dc9-af80-4ff4-90a9-bf76bf029996"
+    js:
+      beautify_on_save: true
+      end_with_newline: true
+  "atom-material-ui":
+    fonts: {}
+    tabs:
+      compactTabs: true
+      noTabMinWidth: true
+    treeView:
+      compactList: true
+    ui: {}
+  core:
+    disabledPackages: [
+      "language-babel"
+      "jsformat"
+      "esformatter"
+      "vue-snippets"
+      "language-vue-component"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    fontSize: 13
+    lineHeight: 1.4
+    preferredLineLength: 90
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    zoomFontWhenCtrlScrolling: true
+  "exception-reporting":
+    userId: "d90f9560-aaf7-293a-c1f5-609da6d234d0"
+  minimap:
+    absoluteMode: true
+    adjustAbsoluteModeHeight: true
+  welcome:
+    showOnStartup: false

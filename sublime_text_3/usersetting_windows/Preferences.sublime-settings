@@ -1,0 +1,43 @@
+{
+	"always_show_minimap_viewport": true,
+	"auto_find_in_selection": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"default_line_ending": "unix",
+	"dpi_scale": 1.0,
+	"draw_minimap_border": true,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"font_face": "consolas",
+	"font_size": 11,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"AngularJS",
+		"JsFormat",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"material_theme_accent_cyan": true,
+	"material_theme_disable_fileicons": false,
+	"material_theme_disable_folder_animation": false,
+	"material_theme_disable_tree_indicator": true,
+	"material_theme_tabs_autowidth": true,
+	"material_theme_tabs_separator": true,
+	"overlay_scroll_bars": "enabled",
+	"save_on_focus_lost": true,
+	"theme": "Material-Theme.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"update_check": false,
+	"word_wrap": true,
+	"wrap_width": 130
+}
