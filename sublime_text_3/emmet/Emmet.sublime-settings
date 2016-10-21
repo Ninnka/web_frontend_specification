@@ -1,0 +1,26 @@
+{
+	// Custom snippets definitions, as per https://github.com/emmetio/emmet/blob/master/snippets.json
+	"snippets": {
+		"html": {
+			"snippets": {
+				// "example": "<div class='example' title='Custom element example'>"
+				"vp": "<!-- 开启响应式 -->\n<meta name=\"viewport\" content=\"width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scaleble=no\" />",
+				"desc": "<!-- SEO页面描述 -->\n<meta name=\"description\" content=\"\" />",
+				"kw": "<!-- SEO页面关键词 -->\n<meta name=\"keywords\" content=\"\" />",
+				"360compat": "<!-- 360 使用Google Chrome Frame -->\n<meta name=\"renderer\" content=\"webkit\" />",
+				"compat": "<!-- 优先使用 IE 最新版本和 Chrome -->\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />",
+				"favicon": "<!-- favicon，可更改图片类型 -->\n<link rel=\"shortcut icon\" type=\"image/ico\" href=\"/favicon.ico\" />",
+				"source": "<source src=\"\" type=\"\" media=\"\" />",
+				"link": "<link rel=\"stylesheet\" type=\"text/css\" href=\"\" />",
+				"doctype": "<!DOCTYPE html>\n",
+			},
+			"abbreviations": {
+				"example": "<div class='example' title='Custom element example'>",
+				"jq": "<script src=\"https://code.jquery.com/jquery-1.12.4.min.js\" integrity=\"sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=\" crossorigin=\"anonymous\"></script>",
+				"$": "<script src=\"https://code.jquery.com/jquery-1.12.4.min.js\" integrity=\"sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=\" crossorigin=\"anonymous\"></script>",
+				"zepto": "<script type=\"text/javascript\" src=\"https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js\" integrity=\"sha256-vrn14y7WH7zgEElyQqm2uCGSQrX/xjYDjniRUQx3NyU=\" crossorigin=\"anonymous\"></script>",
+				"mydoc": "doctype>html[lang=en]>(head>meta[charset='utf-8']+title{${1:文档标题}}+360compat+compat+vp+kw+desc+favicon)+body>jq",
+			}
+		}
+	},
+}
