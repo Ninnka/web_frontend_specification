@@ -1,7 +1,7 @@
 "*":
   "activate-power-mode":
     comboMode:
-      activationThreshold: 15
+      activationThreshold: 1
     particles:
       colours:
         fixed: "#fec129"
@@ -11,13 +11,15 @@
         max: 25
         min: 10
       totalCount: {}
-    screenShake: {}
+    screenShake:
+      enabled: false
   "atom-beautify":
     general:
       _analyticsUserId: "83de4dc9-af80-4ff4-90a9-bf76bf029996"
     js:
       beautify_on_save: true
       end_with_newline: true
+      jslint_happy: true
   "atom-material-ui":
     fonts: {}
     tabs:
@@ -26,12 +28,17 @@
     treeView:
       compactList: true
     ui: {}
+  "atom-ternjs":
+    inlineFnCompletionDocumentation: true
+    snippetsFirst: true
+    useSnippetsAndFunction: true
   core:
     disabledPackages: [
       "language-babel"
       "language-vue-component"
       "jsformat"
       "esformatter"
+      "vue-snippets"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -47,6 +54,7 @@
     showInvisibles: true
     softWrap: true
     zoomFontWhenCtrlScrolling: true
+  emmet: {}
   "exception-reporting":
     userId: "d90f9560-aaf7-293a-c1f5-609da6d234d0"
   minimap:
@@ -54,3 +62,6 @@
     adjustAbsoluteModeHeight: true
   welcome:
     showOnStartup: false
+".diff":
+  editor:
+    preferredLineLength: 90
