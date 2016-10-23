@@ -1,7 +1,7 @@
 "*":
   "activate-power-mode":
     comboMode:
-      activationThreshold: 5
+      activationThreshold: 1
     particles:
       colours:
         fixed: "#fec129"
@@ -14,11 +14,21 @@
     screenShake:
       enabled: false
   "atom-beautify":
+    css:
+      align_assignments: true
+      beautify_on_save: true
+      end_with_newline: true
+      force_indentation: true
     general:
       _analyticsUserId: "83de4dc9-af80-4ff4-90a9-bf76bf029996"
+    html:
+      beautify_on_save: true
+      end_with_newline: true
+      indent_inner_html: true
     js:
       beautify_on_save: true
       end_with_newline: true
+      jslint_happy: true
   "atom-material-ui":
     fonts: {}
     tabs:
@@ -27,13 +37,17 @@
     treeView:
       compactList: true
     ui: {}
+  "atom-ternjs":
+    inlineFnCompletionDocumentation: true
+    snippetsFirst: true
+    useSnippetsAndFunction: true
   core:
     disabledPackages: [
       "language-babel"
+      "language-vue-component"
       "jsformat"
       "esformatter"
       "vue-snippets"
-      "language-vue-component"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -41,7 +55,7 @@
       "atom-material-syntax"
     ]
   editor:
-    fontSize: 13
+    fontSize: 14
     lineHeight: 1.4
     preferredLineLength: 90
     scrollPastEnd: true
@@ -49,6 +63,7 @@
     showInvisibles: true
     softWrap: true
     zoomFontWhenCtrlScrolling: true
+  emmet: {}
   "exception-reporting":
     userId: "d90f9560-aaf7-293a-c1f5-609da6d234d0"
   minimap:
@@ -56,3 +71,6 @@
     adjustAbsoluteModeHeight: true
   welcome:
     showOnStartup: false
+".diff":
+  editor:
+    preferredLineLength: 90
