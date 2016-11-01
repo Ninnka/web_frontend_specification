@@ -133,7 +133,7 @@ module.exports = {
 		"sort-vars": 2,
 		"valid-jsdoc": 2,
 		"wrap-regex": 2,
-
+    "no-use-before-define": 1,
 		// "babel/arrow-parens": [2, "as-needed"],
 		// "babel/generator-star-spacing": [2, "before"]
 	},
