@@ -134,6 +134,7 @@ module.exports = {
 		"valid-jsdoc": 2,
 		"wrap-regex": 2,
     "no-use-before-define": 1,
+    "no-loop-func": 1
 		// "babel/arrow-parens": [2, "as-needed"],
 		// "babel/generator-star-spacing": [2, "before"]
 	},
