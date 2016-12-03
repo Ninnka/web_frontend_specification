@@ -77,7 +77,7 @@ module.exports = {
       "allowArrowFunctions": true
 		}],
     "indent": [2, 2, {
-      "SwitchCase": 1
+      "SwitchCase": 0
 		}],
     "space-before-function-paren": ["off", {
       "anonymous": "always",
