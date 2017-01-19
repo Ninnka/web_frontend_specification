@@ -3,7 +3,8 @@
     "globals": {
       "$": true,
       "_": true,
-      "__dirname": true
+      "__dirname": true,
+      "define": true
     },
     // 语言环境选项
     "env": {
@@ -448,7 +449,7 @@
         // 要求使用 JSDoc 注释
         "require-jsdoc":0,
         // 要求或禁止使用分号而不是 ASI（这个才是控制行尾部分号的，）
-        "semi": [2, "always"],
+        "semi": [0, "always"],
         // 强制分号之前和之后使用一致的空格
         "semi-spacing": 0,
         // 要求同一个声明块中的变量按顺序排列
@@ -500,7 +501,7 @@
         // 禁止不必要的计算性能键对象的文字
         "no-useless-computed-key":0,
         // 要求使用 let 或 const 而不是 var
-        "no-var": 2,
+        "no-var": 0,
         // 要求或禁止对象字面量中方法和属性使用简写语法
         "object-shorthand": 0,
         // 要求使用箭头函数作为回调
